@@ -11,7 +11,7 @@ import IP2Location
 IP2LocObj = IP2Location.IP2Location()
 
 
-IP2LocObj.open("data/IP-COUNTRY-ISP-SAMPLE.BIN")
+IP2LocObj.open("data/IP-COUNTRY.BIN")
 rec = IP2LocObj.get_all("3.7.69.254")
 
 print(rec.country_short)
